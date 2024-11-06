@@ -408,6 +408,9 @@ section {
   margin-top: 3rem;
 }
 .portfolios .portfolio-item {
+  visibility: visible;
+    display: block;
+    opacity: 1;
   position: relative;
   border-radius: 15px;
 }
