@@ -386,6 +386,9 @@ section {
     grid-gap: 2rem;
     margin-top: 3rem;
     .portfolio-item {
+        visibility: visible;
+    display: block;
+    opacity: 1;
         position: relative;
         border-radius: 15px;
         img {
