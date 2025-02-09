@@ -871,11 +871,8 @@ section {
     grid-template-columns: 25px 1fr;
   }
   
-  .main-title{
+  .main-title {
     padding-top: 3rem;
-  }
-  .main-title.contact{
-    padding-top: 0px;
   }
   .main-title h2 {
     font-size: 2rem;
@@ -934,15 +931,6 @@ section {
   }
 }
 
-@media screen and (max-width: 1237px) {
-  .main-title {
-    padding-bottom: 3rem;
-  }
-  .main-title.contact {
-    padding-bottom: 0px;
-  }
-}
-
 @media screen and (max-width: 660px) {
   .blogs {
     grid-template-columns: repeat(1, 1fr);
@@ -961,15 +949,6 @@ section {
     padding-top: 2.5rem;
   }
 
-  .main-title {
-    padding-bottom: 0px;
-  }
-  .main-title.project{
-    padding-bottom: 3rem;
-  }
-  .main-title.info{
-    padding-bottom: 1rem;
-  }
   .main-title h2 {
     font-size: 4rem;
   }
