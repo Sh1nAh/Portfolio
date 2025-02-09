@@ -224,7 +224,6 @@ section {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   height: min-content;
-  height: max-content;
 }
 .about-container .right-about .about-item {
   border: 1px solid var(--color-grey-5);
