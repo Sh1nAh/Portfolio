@@ -183,6 +183,7 @@ section {
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
+  overflow: hidden;
 }
 .header-content .left-header .image img {
   width: 100%;
@@ -222,13 +223,13 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  height: fit-content;
 }
 .about-container .right-about .about-item {
   border: 1px solid var(--color-grey-5);
   border-radius: 5px;
   transition: all 0.4s ease-in-out;
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
-  height: fit-content;
 }
 .about-container .right-about .about-item:hover {
   cursor: default;
